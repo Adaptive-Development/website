@@ -16,10 +16,10 @@
 	<div id="dimension" class="fixed">
 		<div id="page" class="switch_cols_primary">
 			<div id="header">
-				<a id="logo" href="/index.html" title="adaptive, agile and engaging development"><img src="css/images/logo/adapative-development.png" alt="adaptive development" /></a>
+				<a id="logo" href="index.html" title="adaptive, agile and engaging development"><img src="css/images/logo/adapative-development.png" alt="adaptive development" /></a>
 				
 				
-				 <ul id="nav" class="nav"><li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a title="Adaptive Development" href="/index.html"><span></span>Home</a></li>
+				 <ul id="nav" class="nav"><li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a title="Adaptive Development" href="index.html"><span></span>Home</a></li>
 <li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-49 current_page_item menu-item-52"><a title="Our Approach" href="our-approach.html"><span></span>Approach</a></li>
 <li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a title="People who say nice things about us" href="testimonials.html"><span></span>Testimonials</a></li>
 <li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a title="Occasional ramblings" href="blog.html"><span></span>Blog</a></li>
