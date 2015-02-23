@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*  =================================================================
+	IE.CSS | author: Liam Dilley | version: Nov 2009
+    ================================================================= */
+
+#silder-control	{ width:50px; overflow:hidden; position: absolute; right:10px; top:74px; z-index: 2; text-align: left; }
+#silder-control	a	{ float:none; border:0 none !important; text-align: left; margin-left:-20px; display:block; }
+#silder-control	a img { float:none; text-align: left; }
+#view-window	{ width:918px; height:339px;  position: relative; top:0; left:0; z-index:50;}
+
+#sub-content .section.tenmen {padding-top:60px;}
+#the-teamli li {clear:both; border:0 none;}
+#slider-nav { height:60px; }

@@ -1,0 +1,98 @@
+/*  ==================    - DEFAULTS  ============================== */
+    
+form						{ margin:10px 0; padding:0; -moz-border-radius:4px 4px 4px 4px; -webkits-border-radius:4px 4px 4px 4px; border-radius:4px 4px 4px 4px; }
+form.hasbackground			{ background:#c1d8dc; color:#1d303d; }
+form .item					{ float:left; width:45%; overflow:hidden; margin:0 4% 1.5em 0; }
+form button, form .cat_button, form input[type="submit"]
+							{
+							height:22px; padding:0 2px;
+							border:1px solid #ccc; border-color:1px solid #cfcdcd; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:2px; 
+							background:#f5f5f5;
+							font-family:Arial,Verdana,sans-serif; font-size:12px; line-height:22px; font-weight:bold; text-decoration:none; font-weight:normal; color:#333; cursor:pointer;	white-space:nowrap;	vertical-align:baseline;
+							}
+form fieldset				{ 
+							border:1px solid #d8d8d8; background-color:#e7e7e7; position:relative; padding:0 15px 15px 15px; margin:0 0 1.5em;
+							-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; border-top:50px solid #e7e7e7;
+							}
+form fieldset legend 		{ background:none; border:0 none; margin:0; padding:0; font-size:1.8em; color:#3f84c8; }
+form .form-field, form .item
+							{ margin: 0 4% 1.5em 0; overflow: hidden; }
+
+form label, form h4			{ font-size:12px; text-transform: uppercase; line-height:1.8em; color:#262626; font-weight: bold; }
+form .dropdown				{ cursor:pointer; }					
+
+form span.req				{ color:#d02a0a; }
+form .note					{  }
+form span.req 				{ color:#d02a0a; font-size:11px; line-height:1.8em;  }
+
+
+form div#submit				{ width:100%; text-align:center; }
+form fielset div#submit		{ clear:both; }
+form div#submit	input		{
+							display:block; float:left; margin:0 3px 15px 0;	padding:4px 10px 5px 25px;
+							border:1px solid #ccc; border-color:1px solid #cfcdcd; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:2px; 
+							background:#f5f5f5 url(images/tick.png) no-repeat 10% 50%;
+							font-family:Arial,Verdana,sans-serif; font-size:12px; line-height:13px; font-weight:bold; text-decoration:none; color:#333;
+							cursor:pointer;	white-space:nowrap;	vertical-align:baseline; 
+							}
+#content form #form-top		{ 
+							width:22%; text-align: center; cursor: pointer;  border:1px solid #8DCCD9; color:white; padding:2px; display:block; padding:0 3px;
+							height:22px; line-height:22px; font-size:11px; clear:both;
+							background:#93c7ef; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+							}
+form .submission input		{
+							display:block; float:left; margin:0 3px 15px 0;	padding:4px 10px 5px 25px;
+							border:1px solid #ccc; border-color:1px solid #cfcdcd; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:2px; 
+							background:#f5f5f5 url(images/tick.png) no-repeat 10% 50%;
+							font-family:Arial,Verdana,sans-serif; font-size:12px; line-height:18px; font-weight:bold; text-decoration:none; color:#333;
+							cursor:pointer;	white-space:nowrap;	vertical-align:baseline; 
+							}
+
+form .resizable-textarea, form .textarea
+							{  }
+form textarea				{ width:93%; padding:10px; }
+							
+
+form .textfield				{ width:98%; }
+
+form span.form-required		{ color:#d9531e; font-style: italic; font-size:12px; line-height:23px; }
+#contact-form-area .col1	{ float:left; width:38%; padding:34px 0 0 30px; }
+#contact-form-area .col2	{ float:left; width:55%; padding:0 30px 0 0; }
+
+.form-item					{ margin-bottom:10px; }
+.form-item div
+							{ float:left; background:white; color:#bec1cc; border:1px solid #bec1cc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+form .submit				{ text-align:right; }
+form button, form .cat_button, form input[type="submit"]
+							{
+							height:22px; padding:0 2px;
+							border:1px solid #ccc; border-color:1px solid #cfcdcd; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:2px; 
+							background:#f5f5f5;
+							font-family:Arial,Verdana,sans-serif; font-size:12px; line-height:22px; font-weight:bold; text-decoration:none; font-weight:normal; color:#333; cursor:pointer;	white-space:nowrap;	vertical-align:baseline;
+							}
+
+
+.wpcf7-form label
+							{ float:left; width:250px; }
+.wpcf7-form input, .wpcf7-form textarea { border:0 none; background:none; }
+.wpcf7-form .captcha-ar input, .form-item .captcha-ar div { width:20%; }
+.wpcf7-mail-sent-ok 		{
+							margin:5px 0 0 0; text-align:center;
+							line-height:25px; font-weight:normal; font-size:12px; border-style:solid; border-width:1px; padding:15px 5px 8px 5px;
+							-webkit-border-radius:0 0 3px 0;-moz-border-radius:0 0 3px 0;border-radius:0 0 3px 0;
+							background:#fffbcc; border-color:#fcde53; color:#454c53;
+							}
+.wpcf7-validation-errors 	{
+							margin:5px 0 0 0; text-align:center;
+							line-height:25px; font-weight:normal; font-size:12px; border-style:solid; border-width:1px; padding:15px 5px 8px 5px;
+							-webkit-border-radius:0 0 3px 0;-moz-border-radius:0 0 3px 0;border-radius:0 0 3px 0;
+							background:#fbe3e4; border-color:#d12f19; color:#d12f19;
+							}
+.wpcf7-not-valid-tip-no-ajax {
+							margin:0; text-align:left; display:block; float:left;
+							line-height:25px; font-weight:normal; font-size:12px; border-style:solid; border-width:0; padding:1px 5px 1px;
+							background:#fbe3e4; color:#d12f19;
+							}
+
+							
+.wpcf7-form .submit input { width:100px; height:30px; background:transparent url(images/submit.png) no-repeat 0 0; margin-right:60px; border:0 none; }

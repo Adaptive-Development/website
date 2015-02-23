@@ -1,0 +1,74 @@
+<?php
+/*
+Template Name: Blog
+*/
+get_header('blog');
+$postCount = 0;
+?>
+			<div id="body">
+	
+				<div id="content" class="primary">
+					
+					<div class="section blog">
+						<h1><?php the_title(); ?></h1>					
+
+						<div id="the-blog">
+						<?php query_posts('category_name=Blog Section&showposts=4'); ?>
+						<?php while (have_posts()) : the_post(); 
+							// Get post author to generate images
+							$author_id=$post->post_author;
+							$postCount ++;
+							
+							
+						?>
+							<div id="post-<?php echo($postCount); ?>" <?php post_class('clearfix blog-entry'); ?> >
+
+								<div class="post_content clearfix">
+									<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+                    				<?php the_post_thumbnail( 'blog-section' ); ?>
+                    				<p><?php echo substr(strip_tags($post->post_content), 0, 750);?><span class="more-dots">....</span><br/><br/>
+                    				<a href="<?php the_permalink(); ?>">Read more on this post...</a>
+                    				</p>
+                     			   <?php wp_link_pages('before=<b>Pages:</b><br/><div id="page-links">&after=</div>'); ?>
+                    			</div>
+                    			
+                    			<div class="blog-info-author clearfix">
+									
+									<div class="auth">
+										<div class="author-image"><a href="<?php the_author_url(); ?>" title="Author Page"><img src="<?php profilepic_internal_fingerdimensions(profilepic_internal_picpath($author_id, true, 'url')); ?>" alt="Author of this Blog Post" width="75" height="75" /></a></div>
+										
+									</div>
+									<div class="post-data">
+										<div class="blog-author-cat">Posted by: <?php the_author_link(); ?></div>
+										<div class="no-comments">There are <?php comments_popup_link('No Comments', 'Comment (1)', 'Comments (%)'); ?> about this post.</div>
+                   					 	<div class="tags"><?php the_tags( '<div class="tags">Tags: ', ', ', '</div> '); ?></div>
+                   					 	<div class="post_data clearfix">This has been posted in the <?php the_category(',') ?> section.</div>                    					 	
+									</div>
+									
+								</div>
+                    			
+                    			 
+							
+							</div>
+
+						<?php endwhile;?>
+						</div>
+
+
+
+					</div>
+					<div class="sub-section">
+					</div>
+				</div>
+				<div id="sub-content" class="secondary">
+					<div class="section blog-widgets">
+					
+						<?php include_once("sidebar.php"); ?>
+					
+					</div>
+					<div class="sub-section"></div>
+				</div>
+			</div>
+			<div id="end"></div>
+
+<?php get_footer(); ?>

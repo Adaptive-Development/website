@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*  LAYOUT.CSS | Liam Dilley*/
+
+.cols_primary .primary		{width:49%; }
+.cols_primary .secondary	{width:49%; }
+
+.cols_primary #content		{float:left; width:65%; }
+.cols_primary #sub-content	{float:right; width:30%; }
+
+.switch_cols_primary #content		{float:right; width:68%; }
+.switch_cols_primary #sub-content	{float:left; width:28%; }
+
+.cols_content #content .section		{width:49%; }
+.cols_content #content .sub-section	{width:49%; }
+.cols_content #content .section		{float:left; }
+.cols_content #content .sub-section	{float:right; }
+
+.switch_cols_content #content .section		{float:right; }
+.switch_cols_content #content .sub-section	{float:left; }
+
+.cols_sub-content #sub-content .section,
+.cols_sub-content #sub-content .sub-section	{width:49%; }
+.cols_sub-content #sub-content .section		{float:left; }
+.cols_sub-content #sub-content .sub-section	{float:right; }
+
+.switch_cols_sub-content #sub-content .section		{float:right; }
+.switch_cols_sub-content #sub-content .sub-section	{float:left; }
+
+
+.grid_fx_1,		.grid_fx_2,		.grid_fx_3,
+.grid_fx_4,		.grid5,		.grid_fx_6,
+.grid_fx_7,		.grid_fx_8,		.grid_fx_9,
+.grid_fx_10,	.grid_fx_11,	.grid_fx_12,
+{ float:left; display: inline; }
+
+.grid_fx_1		{ width:69px; }			.grid_fx_2		{ width:150px; }
+.grid_fx_3		{ width:231px; }		.grid_fx_4		{ width:312px; }
+.grid_fx_5		{ width:393px; }		.grid_fx_6		{ width:474px; }
+.grid_fx_7		{ width:555px; }		.grid_fx_8		{ width:636px; }
+.grid_fx_9		{ width:717px; }		.grid_fx_10		{ width:798px; }
+.grid_fx_11		{ width:879px; } 		.grid_fx_12		{ width:960px; }
+
+.grid_f_5,  .grid_f_10, .grid_f_15,
+.grid_f_20, .grid_f_25, .grid_f_30,
+.grid_f_33, .grid_f_35, .grid_f_40,
+.grid_f_45, .grid_f_50, .grid_f_55,
+.grid_f_60, .grid_f_65, .grid_f_67,
+.grid_f_70, .grid_f_75, .grid_f_80,
+.grid_f_85, .grid_f_90, .grid_f_95,
+.grid_f_100 { float:left; display: inline; }
+	
+.grip5		{ width:5%; }		.grid_f_10	{ width:10%; }
+.grid_f_15	{ width:15%; }		.grid_f_20	{ width:20%; }
+.grid_f_25	{ width:25%; }		.grid_f_30	{ width:30%; }
+
+.grid_f_33	{ width:33.33%; }	/* Golden */
+
+.grid_f_35	{ width:35%; }		.grid_f_40	{ width:40%; }
+.grid_f_45	{ width:45%; }		.grid_f_50	{ width:50%; } 
+.grid_f_55	{ width:55%; }		.grid_f_60	{ width:60%; }
+.grid_f_65	{ width:65%; }		
+
+.grid_f_67	{ width:66.67%; }	/* Golden */
+
+.grid_f_70	{ width:70%; }		.grid_f_75	{ width:75%; }
+.grid_f_80	{ width:80%; }		.grid_f_85	{ width:85%; }
+.grid_f_90	{ width:90%; }		.grid_f_95	{ width:95%; }
+.grid_f_100 { width:100%; }
+

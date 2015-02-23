@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*  ==============================================================
+	TYPOGRAPHY.cSS | author:Liam dilley | version:Nov 2009
+    ============================================================== */
+
+body			{ font:12px/18px "Lucida Grande",Arial,sans-serif; color:#111; }
+
+/*  ==================    - HeAdeRS  ============================= */
+
+h1				{ font-size:36px; line-height:36px; font-weight:normal; font-family:Arial, Arial, Helvetica, sans-serif; color:#262626; } 
+#sub-content h1	{ margin-left:13px; }
+h2 				{ font-family:Arial, Arial, Helvetica, sans-serif; font-size:25px; line-height:38px; font-style:normal; letter-spacing: -.015em; color:#541800; margin-bottom:4px; }
+.blogbody h2	{ font-size:23px; }
+h3 				{ font-size:16px; line-height:18px; margin:0; font-weight:bold; letter-spacing: -.015em; } 
+h3.company		{ color:#d9531e; font-size:14px; line-height:18px; background:transparent url(images/icons/speach-left.png) 0 0 no-repeat; font-weight:bold; letter-spacing: -.015em;  }
+h3.company a	{ color:#d9531e; font-size:14px; text-decoration:none; border-bottom:0 none !important; font-weight:bold; letter-spacing: -.015em; padding-left:30px;  }
+#sub-content h3	{  font-size:22px; letter-spacing: -.015em; color:#541800; font-style:normal; font-weight:normal; margin-bottom:10px;   }
+h4 				{ font-size:12px; line-height:18px; margin:0; font-weight:normal; color:#666; } 
+h5,h6 			{ font-size:12px; line-height:18px; margin:0; font-weight:normal; }
+
+
+strong			{ font-weight:bold; }
+em				{ font-style: italic; }
+
+/*  ==================    - TEXT  =============================== */
+
+p { margin:0 0 18px 0; color:#464545; font-size:13px; } 
+
+p img,
+li img 			{ float:left;  margin:4px 6px 0 0; padding:0; } 
+
+p img.right,
+li img.right 	{ float:right; margin:4px 0 6px 0; padding:0; } 
+
+a,
+a:focus			{ color:#009; text-decoration:underline; }
+a:hover 		{ color:#000; }
+cite			{ color:474444; font-size:13px; font-family:Arial, Arial, Helvetica, sans-serif; font-weight: bold; line-height:22px; padding-left:30px; }
+.testimonials blockquote
+		 		{ 
+				margin:5px 0; padding:5px 0 5px; color:#7f7f7f;
+				font-family:Georgia,"Times new roman",serif; font-size:14px;  line-height:20px; font-style:italic;
+				}
+.testimonial blockquote 
+				{
+				margin:10px 0; padding:25px 0 5px 0; color:#333; 
+				font-family:Georgia,"Times new roman",serif; font-size:15px; font-style:normal;
+				}
+
+blockquote p	{
+				font-family:Georgia,"Times new roman",serif; font-size:14px; line-height:23px; font-style:italic; color:#8b8989; padding-bottom:35px;
+				background:transparent url(images/icons/speach-right.png) 100% 100% no-repeat;
+				}
+.entry-content .testimonial blockquote	
+				{
+				margin:0 0 10px 0; padding:5px 0 5px 0; color:#333; 
+				}
+.testimonial h2 { margin-top:25px; }
+#content .testimonial h2 a
+				{ border-bottom:0; }
+blockquote a	{ float: right; }
+blockquote .leadin
+				{ margin-bottom:10px; }
+p.intro:first-letter,
+p.important:first-letter 
+				{ width:auto; float:left; padding:5px 0 0 0; line-height:32px;
+					font-weight:normal; font-family:Georgia,Times,serif; font-size:43px; text-shadow:1px 1px 1px #333; letter-spacing:5px;
+				}
+p.intro:first-line,
+p.important:first-line 
+				{ font-variant:small-caps; }
+
+pre,code 		{ overflow-x:auto; -moz-border-radius:3px; border-radius:3px; -webkit-border-radius:3px; background:#111; border:1px solid #333; 
+				display:block; font-family:monaco,courier,"courier new",monospace;	font-size:11px;	margin:0 0 18px; padding:9px;
+				}
+						
+

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Grid Display */
+#fixed_or_fluid {font-size:12px; background:#333; color:white; padding:5px; text-align:center;}
+
+.body-attrs,.site-classes {font-size:12px;}
+#grid {width:100%; z-index: 800; background:transparent url('images/grid/grid-col-bg.jpg') repeat-y 0 0;}
+#boxgrid {width:100%; z-index: 900; background:transparent url('images/grid/boxgrid-bg.jpg') repeat-y 0 0;}
+.transparent {opacity: 0.5; filter: alpha(opacity=50); -ms-filter: "alpha(opacity=50)"; -khtml-opacity: .50; -moz-opacity: .50;} 
+
+/* Layout */
+#layout-switcher				{margin:0; overflow:auto; padding:1%; list-style-type:none;}
+#layout-switcher li				{float:left; margin:0;}
+#layout-switcher li a			{float:left; margin:0 9px 9px 0; font-size:12px; text-align:center; padding:2px;}
+#layout-switcher li a.selected	{border:3px solid #eebd00; position:relative; top:-3px; color:#eebd00; left:-3px; margin-right:3px; margin-bottom:3px; outline:none;}
+#layout-switcher li a img		{border:1px solid #fff;}
