@@ -574,6 +574,10 @@ form textarea#comment 	{ width:604px; margin-bottom:15px }
     font-size:13px;            
 }
 
+.ad_descriptionTextK ul li{
+    font-size:10px;            
+}
+
 .ad_cubeLink a:hover {
     color: #541800;
     border-bottom: 1px solid #1b1b1b;

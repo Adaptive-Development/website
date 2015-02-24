@@ -1,12 +1,13 @@
 (function($, undefined)
 {
-    ad.cube = function(cubeId,frontId,rightId,backId,leftId)
+    ad.cube = function(cubeId,frontId,rightId,backId,leftId,profilePicId)
     {
         this.cubeId = cubeId;
         this.frontId = frontId;
         this.rightId = rightId;
         this.backId = backId;
         this.leftId = leftId;
+        this.profilePicId = profilePicId;
 
         this.windowWidth = 213;
         this.ctr = 0;
@@ -79,7 +80,7 @@
             var additionalTransform = '';
             if( this.isIe )
             {
-                additionalTransform = 'perspective(1000) translateZ(-' + this.windowWidth + 'px)';
+                additionalTransform = 'perspective(1000px) translateZ(-' + this.windowWidth + 'px)';
                 var active = this.ctr % 4;
                 if( i == active )
                 {
@@ -116,7 +117,10 @@
 
     ad.cube.prototype.doRotation = function ()
     {
+
         this.doTransformFunc();
+        var active = this.ctr % 4;
+        ad_profilePicCallback( this.profilePicId, ( active == 3 ) );
     }    
 
     ad.cube.prototype.getInternetExplorerVersion = function ()
@@ -158,10 +162,10 @@
 
     ad.cube.prototype.setupPerspective = function ( theContainer )
     {        
-        theContainer.style.webkitPerspective = '1000';
-        theContainer.style.MozPerspective = '1000';
-        theContainer.style.OPerspective = '1000';
-        theContainer.style.msPerspective = '1000';
-        theContainer.style.Perspective = '1000';
+        theContainer.style.webkitPerspective = '1000px';
+        theContainer.style.MozPerspective = '1000px';
+        theContainer.style.OPerspective = '1000px';
+        theContainer.style.msPerspective = '1000px';
+        theContainer.style.Perspective = '1000px';
     }    
 }( window.ad = window.ad || {} ) );
